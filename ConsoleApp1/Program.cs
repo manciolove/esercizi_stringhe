@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1
+﻿namespace esercizio2
 {
     internal class Program
     {

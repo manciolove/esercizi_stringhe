@@ -11,7 +11,10 @@
             Console.WriteLine("inserisci cognome: ");
             string cognome = Console.ReadLine();
 
-            
+            char[] nomeArray = nome.ToCharArray();
+            char[] cognomeArray = cognome.ToCharArray();
+            Console.WriteLine($"{nome[0]}.{cognome[0]}");
+
         }
     }
 }
